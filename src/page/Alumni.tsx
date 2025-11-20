@@ -5,42 +5,42 @@ export function Alumni(){
     const masterAlumniDatas = [
         {
             name: "曹凱翔",
-            joinDate: "2023.03-pres.",
+            joinDate: "2023.03-2025.08",
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "離校",
             website: "/#/Member/2023/Bobo"
         },
         {
             name: "廖家賢",
-            joinDate: "2023.08-pres.",
+            joinDate: "2023.08-2025.08",
             title: "基於Kyber-KEM技術之安全身份認證協定於低軌衛星通訊系統",
             ability: "密碼學",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "離校",
             certificate: "與 林敬皇 老師共同指導",
             website: "/#/Member/2023/Salt"
         },
         {
             name: "林幸慧",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "BCCS 漢昕科技 - 資安事件調查分析與處理",
             website: "/#/Member/2023/Ravin"
         },
         {
             name: "張家維",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "應用對抗式樣本於 XSS 模糊測試之防禦研究",
             ability: "Web 攻防技術",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "離校",
             website: "/#/Member/2023/CHW"
         },
-        {
+        /*{
             name: "顏柏耀",
             joinDate: "2023.03-pres.",
             title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
@@ -57,7 +57,7 @@ export function Alumni(){
             experience: "資訊安全碩士學位學程",
             status: "口試通過",
             website: "/#/Member/2023/Eason"
-        },
+        },*/
         {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
@@ -142,6 +142,18 @@ export function Alumni(){
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
+        {
+            year: "114",
+            name: "張意昌、吳耀東、林品緯、張睿恩",
+            title: "專案型評測系統設計方法",
+            note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作"
+        },
+        {
+            year: "114",
+            name: "陳奕翔、廖峰瑞、張峻誠、黃政豪",
+            title: "透過問題重塑以及微調 LLM 提升程式碼補全能力",
+            note: ""
+        },
         {
             year: "113",
             name: "陳思群、顏睿寬、許宸瑋",
